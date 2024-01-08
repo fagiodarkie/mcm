@@ -9,8 +9,6 @@
   "biomes": "#europeanskyline:has_structure/simple_stone_temple",
   "step": "surface_structures",
 
-  //"terrain_adaptation": "bury",
-
   "start_height": {
     "type": "uniform",
     "min_inclusive": { "absolute": -2},
