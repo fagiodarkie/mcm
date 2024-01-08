@@ -29,7 +29,7 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(EuropeanSkyline.MODID)
+@Mod("europeanskyline")
 public class EuropeanSkyline {
 	// Define mod id in a common place for everything to reference
 	public static final String MODID = "europeanskyline";
@@ -42,10 +42,6 @@ public class EuropeanSkyline {
 	// Create a Deferred Register to hold Items which will all be registered under
 	// the "examplemod" namespace
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
-	// Create a Deferred Register to hold CreativeModeTabs which will all be
-	// registered under the "examplemod" namespace
-	public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister
-			.create(Registries.CREATIVE_MODE_TAB, MODID);
 
 	/*
 	// Let's create a "yellow stone" block!
@@ -82,7 +78,8 @@ public class EuropeanSkyline {
 		// Register the Deferred Register to the mod event bus so items get registered
 		ITEMS.register(modEventBus);
 		// Register the Deferred Register to the mod event bus so tabs get registered
-		CREATIVE_MODE_TABS.register(modEventBus);
+		//CREATIVE_MODE_TABS.register(modEventBus);
+		
 
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);

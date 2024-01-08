@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:jigsaw",
+
+  "start_pool": "europeanskyline:simple_stone_temple/start_pool",
+
+  "size": 1,
+
+  "max_distance_from_center": 80,
+  "biomes": "#europeanskyline:has_structure/simple_stone_temple",
+  "step": "surface_structures",
+
+  //"terrain_adaptation": "bury",
+
+  "start_height": {
+    "type": "uniform",
+    "min_inclusive": { "absolute": -2},
+    "max_inclusive": { "absolute": 0}
+  },
+
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+
+  "use_expansion_hack": false,
+  
+  "spawn_overrides": {}
+}

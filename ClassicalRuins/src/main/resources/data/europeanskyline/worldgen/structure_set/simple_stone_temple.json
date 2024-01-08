@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "europeanskyline:simple_stone_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 918,
+
+    "spacing": 4,
+
+    "separation": 1
+  }
+}
